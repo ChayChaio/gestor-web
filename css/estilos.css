@@ -1,0 +1,77 @@
+header{
+	background:url(../imgs/img24.jpg) no-repeat center fixed;
+	background-size:cover;
+	height:100px;
+	width: 100%;
+	position: absolute;
+	left:0;
+    right:0;
+	top:0;
+}
+
+header h1 {
+    color: rgb(255, 255, 255);
+    font-size: 2.5em;
+    font-style: normal;
+    /*font-weight: font-weight-absolute;*/
+    display: inline-block;
+    margin: 0.5em 0;
+    /* position: relative;
+    bottom: 30px; */
+}
+
+#home{
+    text-align: right;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    position: right;
+}
+
+nav {
+    background-color: lightblue;
+    position: absolute;
+    top: 100px;
+    margin-bottom: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 13%;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-align: flex;
+    font-size: 20px;
+    display: inline-block;
+    padding: 0.2em 0.4em;
+    transition: all 0.2s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav ul li a.activo {
+    background-color: lightskyblue;
+}
+
+table {
+    background-color: lightblue;
+    table-layout: auto;
+    display: inline-table;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    border-collapse: separate;
+    
+}
