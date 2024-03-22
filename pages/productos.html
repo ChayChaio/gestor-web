@@ -23,25 +23,25 @@
     
     <nav class="container-fluid">
         <div class="holder">
-            <ul class="d-flex justify-content-around">
-                <li><a href="../index.html" name="enlaces">Home</a> <img src="../imgs/home-ico.png" alt="" width="30px" height="30px"></li>
-                <li><a href="./locales.html" name="enlaces">Locales</a>  <img src="../imgs/locales.png" alt="" width="30px" height="30px"></li>
-                <li><a class="activo" name="enlaces">Productos</a>  <img src="../imgs/2561499.png" alt="" width="30px" height="30px"></li>
-                <li><a href="./nosotros.html" name="enlaces">Nosotros</a> <img src="../imgs/us-ico.png" alt="" width="30px" height="30px"></li>
-                <li><a href="./contacto.html"name="enlaces">Contacto</a> <img src="../imgs/contacto-ico.png" alt="" width="30px" height="30px"></li>
+            <ul class="nav nav-tabs nav-fill">
+                <li class="nav-item"><a href="../index.html" class="nav-link" href="#">Home <img src="../imgs/home-ico.png" alt="" width="30px" height="30px"></a></li>
+                <li class="nav-item"><a href="./locales.html" class="nav-link" href="#">Locales  <img src="../imgs/locales.png" alt="" width="30px" height="30px"></a></li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Productos  <img src="../imgs/2561499.png" alt="" width="30px" height="30px"></a></li>
+                <li class="nav-item"><a href="./nosotros.html" class="nav-link" href="#">Nosotros <img src="../imgs/us-ico.png" alt="" width="30px" height="30px"></a></li>
+                <li class="nav-item"><a href="./contacto.html" class="nav-link" href="#">Contacto <img src="../imgs/contacto-ico.png" alt="" width="30px" height="30px"></a></li>
             </ul>
         </div>
     </nav>
     <main>
         <nav>
             <div>
-                <table>
+                <table class="table table-success table-striped">
                     <tr>
-                        <td>ID</td>
-                        <td>Producto</td>
-                        <td>Descripción</td>
-                        <td>Tipo</td>
-                        <td>Precio</td>
+                        <th>ID</th>
+                        <th>Producto</th>
+                        <th>Descripción</th>
+                        <th>Tipo</th>
+                        <th>Precio</th>
                     </tr>
                     <tr>
                         <td><input type="number" name="ID"></td>

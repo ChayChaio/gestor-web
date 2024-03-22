@@ -23,25 +23,25 @@
     
     <nav class="container-fluid">
         <div class="holder">
-            <ul class="d-flex justify-content-around">
-                <li><a href="../index.html" name="enlaces">Home</a> <img src="../imgs/home-ico.png" alt="" width="30px" height="30px"></li>
-                <li><a class="activo" name="enlaces">Locales</a>  <img src="../imgs/locales.png" alt="" width="30px" height="30px"></li>
-                <li><a href="./productos.html" name="enlaces">Productos</a>  <img src="../imgs/2561499.png" alt="" width="30px" height="30px"></li>
-                <li><a href="./nosotros.html" name="enlaces">Nosotros</a> <img src="../imgs/us-ico.png" alt="" width="30px" height="30px"></li>
-                <li><a href="./contacto.html"name="enlaces">Contacto</a> <img src="../imgs/contacto-ico.png" alt="" width="30px" height="30px"></li>
+            <ul class="nav nav-tabs nav-fill">
+                <li class="nav-item"><a href="../index.html" class="nav-link" href="#">Home <img src="../imgs/home-ico.png" alt="" width="30px" height="30px"></a></li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Locales  <img src="../imgs/locales.png" alt="" width="30px" height="30px"></a></li>
+                <li class="nav-item"><a href="./productos.html" class="nav-link" href="#">Productos  <img src="../imgs/2561499.png" alt="" width="30px" height="30px"></a></li>
+                <li class="nav-item"><a href="./nosotros.html" class="nav-link" href="#">Nosotros <img src="../imgs/us-ico.png" alt="" width="30px" height="30px"></a></li>
+                <li class="nav-item"><a href="./contacto.html" class="nav-link" href="#">Contacto <img src="../imgs/contacto-ico.png" alt="" width="30px" height="30px"></a></li>
             </ul>
         </div>
     </nav>
     <main>
         <nav>
             <div>
-                <table>
+                <table class="table table-success table-striped">
                     <tr>
-                        <td>ID</td>
-                        <td>Dirección</td>
-                        <td>Barrio</td>
-                        <td>Teléfono</td>
-                        <td>Cant. Empleados</td>
+                        <th>ID</th>
+                        <th>Dirección</th>
+                        <th>Barrio</th>
+                        <th>Teléfono</th>
+                        <th>Cant. Empleados</th>
                     </tr>
                     <tr>
                         <td><input type="number" name="ID"></td>
